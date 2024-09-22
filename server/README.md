@@ -19,5 +19,5 @@ http://localhost:5000/api/data
 
 If configured correctly, you should see a JSON response in your browser that looks like this:
 {
-  "message": "Hello from the server!"
+  "message": "Hello from Digital Twins server!"
 }
