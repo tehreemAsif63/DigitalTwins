@@ -1,0 +1,11 @@
+html, body, #root {
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: lime;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
