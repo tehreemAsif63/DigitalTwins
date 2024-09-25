@@ -1,10 +1,9 @@
-import { Router, Request, Response } from 'express';
+import { Router } from 'express';
+import { welcomeMessage } from '../controllers/apiController';
 
 const router = Router();
 
 // Define the /api/v1 route
-router.get('/v1', (req: Request, res: Response) => {
-  res.send('Welcome to Digital Twins');
-});
+router.get('/v1', welcomeMessage);
 
 export default router;
