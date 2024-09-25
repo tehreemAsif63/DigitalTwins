@@ -16,9 +16,11 @@ Run this command whenever you clone the project or update dependencies.
 
 To start the server with Node.js:
 You can access the following URL in your browser:
-http://localhost:5000/api/v1
+https://localhost:5000/api/v1
 
 If configured correctly, you should see a JSON response in your browser that looks like this:
 {
   "message": "Hello from Digital Twins server!"
 }
+
+
