@@ -1,9 +1,10 @@
+/*Style rules for the HTML, body, and root elements */
 html, body, #root {
     background-color: black;
     height: 100%;
     margin: 0;
     padding: 0;
-    color: lime;
+    color: lime; /*text color*/
 }
 
 @tailwind base;
