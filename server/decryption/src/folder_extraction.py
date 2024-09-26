@@ -12,7 +12,7 @@ class FolderExtraction:
 
     def extract_folders(self):
         data_files, index_files, settings_files, data_qual_time, data_qual_str, patient_information = [], [], [], [], [], []
-        data_path = os.path.join(pathlib.Path(__file__).parent.resolve(), "../encrypted_data", "")
+        data_path = os.path.join(pathlib.Path(__file__).parent.resolve(), "data", "")
         directory = os.fsencode(data_path)
 
         # Iterate over all the files in the data directory and check the filename.
