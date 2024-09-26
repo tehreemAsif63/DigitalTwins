@@ -23,6 +23,9 @@ yarn-error.log*
 .pnp.js
 
 # encryption folder
-**/encryption/
+/decryption/src/__pycache__
+/decryption/src/venv
+/decryption/src/binary_extraction.py
+/decryption/encrypted_data
 **/venv/
 **/certs/
