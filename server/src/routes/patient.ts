@@ -1,9 +1,12 @@
 import { Router } from 'express';
-import { sendPatientData } from '../controllers/patientController';
+import { sendPatientData, sendPatientCategoryData } from '../controllers/patientController';
 
 const router = Router();
 
-// Define the send patient data route
+// Define the route of sending patient data(all categories) by patient id
 router.get('/v1/patients/:id/data', sendPatientData);
+
+// Define the route of sending patient category data by patient id
+router.get('/v1/patients/:id/:category', sendPatientCategoryData);
 
 export default router;

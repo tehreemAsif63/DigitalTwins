@@ -3,7 +3,7 @@ import fs from 'fs';
 import express from 'express';
 import morgan from 'morgan';
 import apiRoutes from './routes/api';
-import sendPatientRoutes from './routes/patient';
+import patientRoutes from './routes/patient';
 import { notFoundHandler } from './middlewares/errorHandler';
 
 // Initialize express application
@@ -16,7 +16,7 @@ app.use(express.json());
 
 // Apply routes
 app.use('/api', apiRoutes);
-app.use('/api', sendPatientRoutes);
+app.use('/api', patientRoutes);
 
 // Apply error handler
 app.use(notFoundHandler);
