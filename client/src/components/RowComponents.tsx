@@ -29,7 +29,7 @@ const RowComponent: React.FC<RowComponentProps> = ({ title, unit, color, numberC
                             y: data.measurement_data,  // Y-axis values (measurements)
                             type: "scatter",  // Type of graph
                             mode: "lines", // Connect points with lines
-                            line: { color }, // Line color to be determined by color props
+                            line: { color, width: 1.5}, // Line color to be determined by color props
                         },
                     ]}
                     layout={{ // Layout settings for the graph
