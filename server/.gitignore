@@ -25,4 +25,8 @@ yarn-error.log*
 # encryption folder
 **/encryption/
 **/venv/
+**/decoded/
+**/converters/
+
+# certificate
 **/certs/
