@@ -7,6 +7,7 @@ const fetchPatientData = async (patientId: string, dataCategory: string): Promis
     try {
         const response = await Api.get(`/patients/${patientId}/${dataCategory}`);
         return response.data; // Return the data received from the server
+        console.log("Data received from the backend:", response.data); // Log received data
 
     } catch (error) {
         // Log an error message if the request fails
