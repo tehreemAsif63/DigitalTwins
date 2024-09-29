@@ -3,7 +3,6 @@ import { fetchPatientData } from "./apiFunctions.ts"; // Import the fetch functi
 import './App.css';
 import RowComponent from "./components/RowComponents.tsx";
 import {FaHeart} from 'react-icons/fa' // Import a heart icon from react-icons
-import {Api} from "./api.tsx"; // import configured Axios instance
 import { DataType } from './types.ts'; // Import DataType interface
 
 
