@@ -13,19 +13,12 @@ def main():
     # Global variables was used to pass values between the two threads
     global patient_name, date, measurements
 
-    # Starts a thread that runs the main method every 10 seconds and exits when ui closes
-    process = Timer(10.0, main)
-    process.daemon = True
-    process.start()
-
     # Copies all the files from the Moberg Monitor into the data folder
     # copy_latest.copy_files()
 
     # Extract all the data, index, settings and patient files into associated lists
     folder = folder_extraction.FolderExtraction('data/')
     data_file_list, index_file_list, settings_file_list, qual_time_list, qual_str_list, patient_info = folder.extract_folders()
-    # print(patient_info)
-    print(data_file_list)
 
     # Extract the data, time_vector, units, start_time values and more from the binary files
     data = binary_extraction.DataExtraction(data_file_list,
