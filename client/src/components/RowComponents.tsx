@@ -20,8 +20,8 @@ const RowComponent: React.FC<RowComponentProps> = ({ title, unit, color, numberC
     // Get the latest measurement value
 
     return (
-        <div className="grid grid-cols-3 h-screen items-start bg-black">{/* Main layout with 3 columns */}{/* Left side: Plotly graph */}
-            <div className="col-span-2 p-4 h-full items-stretch"> {/* Takes 2 columns */}
+        <div className="grid grid-cols-3 items-start bg-black">{/* Main layout with 3 columns */}{/* Left side: Plotly graph */}
+            <div className="col-span-2 p-2 h-full items-stretch"> {/* Takes 2 columns */}
                 <Plot
                     data={[
                         {
@@ -61,7 +61,7 @@ const RowComponent: React.FC<RowComponentProps> = ({ title, unit, color, numberC
                         }
                     }}
                     useResizeHandler={true} // Handle resizing
-                    style={{ width: "100%", height: "280px" }} // Style for the graph
+                    style={{ width: "100%", height: "200px" }} // Style for the graph
                 />
             </div>
 

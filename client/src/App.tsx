@@ -15,16 +15,21 @@ const App: React.FC = () => {
         return <div>Loading...</div> 
     }
 
+    // An array of row objects, each representing a row of data type to be displayed.
     const rowData = [
         // Heart Rate Row
         {title: "HR", unit: "bpm", color: "lightgreen", data: visibleData.HR, optionPart: <FaHeart color="red" />, numberColor: "lightgreen"},
         // ABP Row 
         { title: "ABP", unit: "mmHg", color: "red", data: visibleData.ABP, optionPart: "120/80", numberColor: "white" },
         // Add more rows later
+        { title: "test1", unit: "testunit", color: "lightblue", data: visibleData.ABP, numberColor: "lightblue" },
+        { title: "test2", unit: "testunit", color: "green", data: visibleData.ABP, numberColor: "green" },
+        { title: "test3", unit: "testunit", color: "green", data: visibleData.ABP, numberColor: "white" },
     ]
 
     return (
-        <div className="grid grid-rows-2 gap-4 h-screen items-start bg-black">
+        // Grid layout that adjusts dynamically based on the content of the rowData.
+        <div className="grid grid-cols-1 auto-rows-auto gap-2 overflow-auto h-screen bg-black">
             {rowData.map((row, index) => (
                 <RowComponent
                     key={index}
