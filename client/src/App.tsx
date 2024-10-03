@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import { fetchPatientData } from "./apiFunctions.ts"; // Import the fetch function
+import { fetchPatientData , fetchWelcomeMessage} from "./apiFunctions.ts"; // Import the fetch function
 import './App.css';
 import RowComponent from "./components/RowComponents.tsx";
 import {FaHeart} from 'react-icons/fa' // Import a heart icon from react-icons
@@ -11,10 +11,23 @@ import { DataType } from './types.ts'; // Import DataType interface
 const App: React.FC = () => {
     //The initial state is set to null, and the state is set up to store patient data, which can be of any specific data type or null.
     const [data, setData] = useState<DataType | null>(null);
+    const [welcomeMessage, setWelcomeMessage] = useState<string | null>(null);
     const patientId = "123"; // Placeholder-Replace with the actual patient ID
     const dataCategory = "abp"; // Placeholder-Replace with the actual data category
 
     useEffect(() => {
+        // Fetch the welcome message
+        const fetchInitialData = async () => {
+            try {
+                const message = await fetchWelcomeMessage();
+                setWelcomeMessage(message); // Set the welcome message state
+                console.log("Here is the welcome message!");
+            } catch (error) {
+                console.error("Failed to fetch welcome message:", error);
+            }
+        };
+
+        //fetch patient data
         const fetchData = async () => {
             try {
                 // Fetch patient data using the defined function
@@ -30,8 +43,8 @@ const App: React.FC = () => {
             }
         };
 
-        // Fetch data initially
-        fetchData();
+        fetchInitialData(); // Fetch the welcome message
+        fetchData();  // Fetch patient data
 
         // Set up interval to fetch data every 2 seconds
         const intervalId = setInterval(fetchData, 2000);
@@ -46,6 +59,8 @@ const App: React.FC = () => {
 
     return (// two rowComponents for now showcasing two categories' measurements
         <div className="grid grid-rows-2 gap-4 h-screen items-start bg-black">
+            <h1 style={{ color: "white" }}>{welcomeMessage}</h1> {/* Display the welcome message */}
+
             <RowComponent title="HR" unit="bpm" color="lightgreen" data={data} optionPart={<FaHeart color="red" />} numberColor="lightgreen"/>
             <RowComponent title="ABP" unit="mmHg" color="white" data={data} optionPart="120/80" numberColor="white"/>
         </div>
