@@ -3,8 +3,6 @@ import { DataType } from './types'; // Import DataType interface
 
 // Function to fetch patient data from the back-end
 const fetchPatientData = async (patientId: string, dataCategory: string): Promise<DataType> => {
-  
-    console.log("Trying to fetch patient data..."); // Log fetching attempt   
     try {
         // Get the entire dataset including all categories
         const response = await api.get(`/patients/${patientId}/data`);
@@ -20,15 +18,12 @@ const fetchPatientData = async (patientId: string, dataCategory: string): Promis
     }
 
 };
-
-// Export the fetchPatientData function for use in other files
-export { fetchPatientData };
+export { fetchPatientData };// Export the fetchPatientData function for use in other files
 
 // Function to fetch welcome message from the back-end
 const fetchWelcomeMessage = async (): Promise<string> => {
-    console.log("Trying to fetch the welcome message..."); // Log fetching attempt
     try {
-        const response = await api.get(`/api/v1`); //get request for welcome message
+        const response = await api.get(`/`); //get request for welcome message
         console.log("Data received from the backend:", response.data); // Log message
         return response.data; // Return welcome message
     } catch (error) {
@@ -38,6 +33,4 @@ const fetchWelcomeMessage = async (): Promise<string> => {
     }
 
 };
-
-// Export the fetchWelcomeMessage function
-export { fetchWelcomeMessage };
+export { fetchWelcomeMessage };// Export the fetchWelcomeMessage function

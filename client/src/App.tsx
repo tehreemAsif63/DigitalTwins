@@ -5,7 +5,6 @@ import RowComponent from "./components/RowComponents.tsx";
 import {FaHeart} from 'react-icons/fa' // Import a heart icon from react-icons
 import { DataType } from './types.ts'; // Import DataType interface
 
-
 // The main component that renders different rows of data for a patient monitor.
 // More specifically, it fetches data (e.g., ABP, heart rate, etc.) and displays them in separate rows using the RowComponent.
 const App: React.FC = () => {
@@ -33,7 +32,6 @@ const App: React.FC = () => {
                 // Fetch patient data using the defined function
                 const patientData = await fetchPatientData(patientId, dataCategory);
                 console.log("Fetched Patient Data:", patientData.data); // Log the fetched data
-
                 setData({
                     time_vector: patientData.data.time_vector.flat(), // data structure
                     measurement_data: patientData.data.measurement_data.flat(),
@@ -47,10 +45,10 @@ const App: React.FC = () => {
         fetchData();  // Fetch patient data
 
         // Set up interval to fetch data every 10 seconds
-        const intervalId = setInterval(fetchData, 10000);
+        //const intervalId = setInterval(fetchData, 10000);
 
         // Cleanup function to clear the interval
-        return () => clearInterval(intervalId);
+        //return () => clearInterval(intervalId);
     }, [patientId, dataCategory]);
 
     if (!data) { //while data is not loaded display this message
