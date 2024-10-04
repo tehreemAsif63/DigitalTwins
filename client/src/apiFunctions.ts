@@ -3,12 +3,8 @@ import { DataType } from './types'; // Import DataType interface
 
 // Function to fetch patient data from the back-end
 const fetchPatientData = async (patientId: string, dataCategory: string): Promise<DataType> => {
-    //testing if data is tried to be fetched every 2 seconds- can remove later
-    const startTime = Date.now();
-    setInterval(() => {
-    //     console.log(`Checking data is being fetched- ${Math.floor((Date.now() - startTime) / 1000)} seconds`);
-    }, 1000);
-    
+  
+    console.log("Trying to fetch patient data..."); // Log fetching attempt   
     try {
         // Get the entire dataset including all categories
         const response = await api.get(`/patients/${patientId}/data`);
@@ -30,7 +26,7 @@ export { fetchPatientData };
 
 // Function to fetch welcome message from the back-end
 const fetchWelcomeMessage = async (): Promise<string> => {
-    console.log("Fetching welcome message..."); // Log fetching attempt
+    console.log("Trying to fetch the welcome message..."); // Log fetching attempt
     try {
         const response = await api.get(`/api/v1`); //get request for welcome message
         console.log("Data received from the backend:", response.data); // Log message
