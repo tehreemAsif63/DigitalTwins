@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "a0f54593-8203-44dd-aa41-5b176c219dfa",
+		"_postman_id": "664246d2-d9af-4bd6-a389-6b0493a6a2a6",
 		"name": "DigitalTwins",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "30514387"
+		"_exporter_id": "28868794"
 	},
 	"item": [
 		{
-			"name": "Request All Categories By ID",
+			"name": "Get All Data",
 			"event": [
 				{
 					"listen": "test",
@@ -56,7 +56,7 @@
 			"response": []
 		},
 		{
-			"name": "Request __header__ By ID",
+			"name": "Get ABP,Dias",
 			"event": [
 				{
 					"listen": "test",
@@ -75,7 +75,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/__header__",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/ABP,Dias",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -86,14 +86,15 @@
 						"v1",
 						"patients",
 						"1",
-						"__header__"
+						"data",
+						"ABP,Dias"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request __version__ By ID",
+			"name": "Get ABP,Mean",
 			"event": [
 				{
 					"listen": "test",
@@ -112,7 +113,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/__version__",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/ABP,Mean",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -123,14 +124,15 @@
 						"v1",
 						"patients",
 						"1",
-						"__version__"
+						"data",
+						"ABP,Mean"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request __globals__ By ID",
+			"name": "Get ABP,Syst",
 			"event": [
 				{
 					"listen": "test",
@@ -149,7 +151,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/__globals__",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/ABP,Syst",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -160,14 +162,15 @@
 						"v1",
 						"patients",
 						"1",
-						"__globals__"
+						"data",
+						"ABP,Syst"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request data_qual_str By ID",
+			"name": "Get HR,na",
 			"event": [
 				{
 					"listen": "test",
@@ -186,7 +189,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/data_qual_str",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/HR,na",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -197,14 +200,15 @@
 						"v1",
 						"patients",
 						"1",
-						"data_qual_str"
+						"data",
+						"HR,na"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request data_qual_time By ID",
+			"name": "Get RR,na",
 			"event": [
 				{
 					"listen": "test",
@@ -223,7 +227,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/data_qual_time",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/RR,na",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -234,14 +238,15 @@
 						"v1",
 						"patients",
 						"1",
-						"data_qual_time"
+						"data",
+						"RR,na"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request measurement_data By ID",
+			"name": "Get SpO2,na",
 			"event": [
 				{
 					"listen": "test",
@@ -260,7 +265,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/measurement_data",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/SpO2,na",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -271,14 +276,15 @@
 						"v1",
 						"patients",
 						"1",
-						"measurement_data"
+						"data",
+						"SpO2,na"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request start_date_time By ID",
+			"name": "Get Tvesic,na",
 			"event": [
 				{
 					"listen": "test",
@@ -297,7 +303,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/start_date_time",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/Tvesic,na",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -308,14 +314,15 @@
 						"v1",
 						"patients",
 						"1",
-						"start_date_time"
+						"data",
+						"Tvesic,na"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request time_vector By ID",
+			"name": "Get rSO2,Left",
 			"event": [
 				{
 					"listen": "test",
@@ -334,7 +341,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/time_vector",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/rSO2,Left",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -345,14 +352,15 @@
 						"v1",
 						"patients",
 						"1",
-						"time_vector"
+						"data",
+						"rSO2,Left"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Request units By ID",
+			"name": "Get rSO2,Right",
 			"event": [
 				{
 					"listen": "test",
@@ -371,7 +379,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:5000/api/v1/patients/1/units",
+					"raw": "https://localhost:5000/api/v1/patients/1/data/rSO2,Right",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -382,7 +390,8 @@
 						"v1",
 						"patients",
 						"1",
-						"units"
+						"data",
+						"rSO2,Right"
 					]
 				}
 			},

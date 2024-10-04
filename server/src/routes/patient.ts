@@ -4,9 +4,9 @@ import { sendPatientData, sendPatientCategoryData } from '../controllers/patient
 const router = Router();
 
 // Define the route of sending patient data(all categories) by patient id
-router.get('/v1/patients/:id/data', sendPatientData);
+router.get('/:id/data', sendPatientData);
 
 // Define the route of sending patient category data by patient id
-router.get('/v1/patients/:id/:category', sendPatientCategoryData);
+router.get('/:id/data/:category', sendPatientCategoryData);
 
 export default router;
