@@ -7,8 +7,8 @@ const fetchPatientData = async (patientId: string, dataCategory: string): Promis
         // Get the entire dataset including all categories
         const response = await api.get(`/patients/${patientId}/data`);
         // Get a specific category of the dataset
-        // const response = await api.get(`/patients/${patientId}/${dataCategory}`);
-        console.log("Data received from the backend:", response.data); // Log received data
+        //const response = await api.get(`/patients/${patientId}/${dataCategory}`);
+        console.log("Message received from the backend:", response.data); // Log received data
         return response.data; // Return the data received from the server
 
     } catch (error) {
