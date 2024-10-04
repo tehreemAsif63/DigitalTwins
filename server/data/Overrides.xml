@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Overrides updated="20201112">
+<Override>_Override/EEG,ECG,FilteredSampleSeries,Float,*/AmpScale:200</Override>
+<Override>_Override/EEG,ECG,FilteredSampleSeries,Float,*/HighPassFilter:0.5</Override>
+<Override>_Override/EEG,ECG,FilteredSampleSeries,Float,*/HighScale:2000</Override>
+<Override>_Override/EEG,ECG,FilteredSampleSeries,Float,*/LowPassFilter:50</Override>
+<Override>_Override/EEG,ECG,FilteredSampleSeries,Float,*/LowScale:-2000</Override>
+<Override>_Override/EEG,ECG,FilteredSampleSeries,Float,*/NotchFilter:-1</Override>
+<Override>_Override/EEG,EMG,FilteredSampleSeries,Float,*/AmpScale:7</Override>
+<Override>_Override/EEG,EMG,FilteredSampleSeries,Float,*/HighPassFilter:0.5</Override>
+<Override>_Override/EEG,EMG,FilteredSampleSeries,Float,*/HighScale:100</Override>
+<Override>_Override/EEG,EMG,FilteredSampleSeries,Float,*/LowPassFilter:50</Override>
+<Override>_Override/EEG,EMG,FilteredSampleSeries,Float,*/LowScale:-100</Override>
+<Override>_Override/EEG,EMG,FilteredSampleSeries,Float,*/NotchFilter:-1</Override>
+<Override>_Override/EEG,EOG,FilteredSampleSeries,Float,*/AmpScale:7</Override>
+<Override>_Override/EEG,EOG,FilteredSampleSeries,Float,*/HighPassFilter:0.5</Override>
+<Override>_Override/EEG,EOG,FilteredSampleSeries,Float,*/HighScale:100</Override>
+<Override>_Override/EEG,EOG,FilteredSampleSeries,Float,*/LowPassFilter:30</Override>
+<Override>_Override/EEG,EOG,FilteredSampleSeries,Float,*/LowScale:-100</Override>
+<Override>_Override/EEG,EOG,FilteredSampleSeries,Float,*/NotchFilter:-1</Override>
+<Override>_Override/EEG,Resp,FilteredSampleSeries,Float,*/AmpScale:200</Override>
+<Override>_Override/EEG,Resp,FilteredSampleSeries,Float,*/HighPassFilter:0.5</Override>
+<Override>_Override/EEG,Resp,FilteredSampleSeries,Float,*/HighScale:2000</Override>
+<Override>_Override/EEG,Resp,FilteredSampleSeries,Float,*/LowPassFilter:50</Override>
+<Override>_Override/EEG,Resp,FilteredSampleSeries,Float,*/LowScale:-2000</Override>
+<Override>_Override/EEG,Resp,FilteredSampleSeries,Float,*/NotchFilter:-1</Override>
+</Overrides>

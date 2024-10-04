@@ -1,0 +1,7 @@
+   <AmpInfo>
+      <AmpType value="MRIAmp" />
+      <SerialNumber value="A-EEG-19206" />
+      <BoardInfo infoStr="D.02v1.22 Jun 28 2012 15:04:04" bdNumber="2" version="1.22 Jun 28 2012 15:04:04" name="DigitalBd" />
+      <BoardInfo infoStr="A.03v1.0" bdNumber="3" version="1.0" name="AnalogBd" />
+      <BoardInfo infoStr="J.02v1.0" bdNumber="2" version="1.0" name="JackBd" />
+   </AmpInfo>

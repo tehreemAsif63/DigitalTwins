@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events updated="20201019" nativeImported="1">
+<Event>
+<Name>2:NORADRENALINE START</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:47:51.000</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>1:preoxygenering</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:48:34.042</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>3:6 andetag</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:50:34.000</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>4:Remifentanil start cpt 6</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:54:32.576</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>5:Propofol</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:56:32.050</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>6:Efedrin 5 mg under induktion</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:56:57.877</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>7:Rocuronium 50 mg</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:57:17.096</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>8:Intubation</Name>
+<Description></Description>
+<StartTime>2020-10-16 08:58:47.203</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>9:djuandning tv fran 400 till 630</Name>
+<Description></Description>
+<StartTime>2020-10-16 09:06:58.933</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>10:MAC UP </Name>
+<Description></Description>
+<StartTime>2020-10-16 09:17:56.706</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>11:MAC DOWN 0,7</Name>
+<Description></Description>
+<StartTime>2020-10-16 09:19:33.072</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>14:BASELINE PRE START</Name>
+<Description></Description>
+<StartTime>2020-10-16 09:50:13.000</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>15:BASELINE PRE END</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:00:58.000</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>12:Remifentanil up cpt 7</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:01:34.159</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>13:KNIVSTART</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:05:28.773</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>16:olika utseende pa p vagen i perioder</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:31:34.816</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>17:FiO2 0.8</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:48:52.327</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>18:CLAMP ON CAROTIS DX</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:53:08.000</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>19:Stumptrycksmatning</Name>
+<Description></Description>
+<StartTime>2020-10-16 10:54:40.222</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>20:CLAMP OFF CAROTIS DX</Name>
+<Description></Description>
+<StartTime>2020-10-16 11:52:10.575</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>21:FiO2 0.4</Name>
+<Description></Description>
+<StartTime>2020-10-16 11:55:28.416</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>22:Flodesmatning 205 ml/min i carotis communis</Name>
+<Description></Description>
+<StartTime>2020-10-16 12:18:20.964</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>23:djupandning tv 600 rf 6/min</Name>
+<Description></Description>
+<StartTime>2020-10-16 12:30:16.890</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>24:vanlig andning tv 450 rf 14/min</Name>
+<Description></Description>
+<StartTime>2020-10-16 12:32:08.414</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>25:WOUND CLOSURE</Name>
+<Description></Description>
+<StartTime>2020-10-16 13:36:36.420</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>26:FORBAND PA</Name>
+<Description></Description>
+<StartTime>2020-10-16 13:51:34.188</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+<Event>
+<Name>27:narkos av</Name>
+<Description></Description>
+<StartTime>2020-10-16 13:58:41.808</StartTime>
+<Duration>0</Duration>
+<Target>Trends</Target>
+<EventDisplay color="#8080ff">Line</EventDisplay>
+<Source>CNS</Source>
+</Event>
+</Events>

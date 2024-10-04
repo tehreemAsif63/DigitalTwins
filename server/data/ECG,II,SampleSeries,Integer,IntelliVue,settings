@@ -1,0 +1,6 @@
+<TypeSettings type="ECG,II,SampleSeries,IntegerAggregate,IntelliVue">
+	<SampleConversion>
+		-1073741824,1073741824,-16384,16384
+	</SampleConversion>
+	<Units>mV</Units>
+</TypeSettings>

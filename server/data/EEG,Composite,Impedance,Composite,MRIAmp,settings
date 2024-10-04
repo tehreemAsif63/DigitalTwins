@@ -1,0 +1,13 @@
+<TypeSettings type="EEG,Composite,Impedance,CompositeAggregate,MRIAmp">
+	<Units>ohms</Units>
+	<CompositeElements>
+		<CompositeElement type="EEG,C3,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,C4,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,Ref,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,F3,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,F4,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,Gnd,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,P3,Impedance,FloatAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,P4,Impedance,FloatAggregate,MRIAmp"/>
+	</CompositeElements>
+</TypeSettings>

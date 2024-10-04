@@ -1,0 +1,13 @@
+   <MontageDefinition format="2" >
+      <Montage>
+         <AmplifierType>MRIAmp</AmplifierType>
+         <Channel role="REFERENTIAL_INPUT" lead="F3" jack="1" />
+         <Channel role="REFERENTIAL_INPUT" lead="C3" jack="2" />
+         <Channel role="REFERENTIAL_INPUT" lead="P3" jack="3" />
+         <Channel role="REFERENTIAL_INPUT" lead="F4" jack="4" />
+         <Channel role="REFERENTIAL_INPUT" lead="C4" jack="5" />
+         <Channel role="REFERENTIAL_INPUT" lead="P4" jack="6" />
+         <Channel role="REFERENCE" lead="Cz" jack="REF" />
+         <Channel role="GROUND" lead="Gnd" jack="GND" />
+      </Montage>
+   </MontageDefinition>

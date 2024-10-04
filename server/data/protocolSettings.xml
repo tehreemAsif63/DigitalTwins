@@ -1,0 +1,195 @@
+   <NIVAEEG>
+      <Measurements>
+         <EEG DefaultSource="MRIAmp" CollectFrom="MRIAmp" />
+         <FlowRate DefaultSource="none" />
+         <Tinlet DefaultSource="none" />
+         <Toutlet DefaultSource="none" />
+         <Tpatient1 DefaultSource="none" />
+         <Tpatient2 DefaultSource="none" />
+         <Ttarget DefaultSource="none" />
+         <BIS DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <Tcore DefaultSource="none" />
+         <TsetPt DefaultSource="none" />
+         <Twater DefaultSource="none" />
+         <Perfusion DefaultSource="none" />
+         <Tperf DefaultSource="none" />
+         <perfDeltaT DefaultSource="none" />
+         <ABP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <ART DefaultSource="none" />
+         <CPP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <CPP2 DefaultSource="none" />
+         <CVP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <ECG DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <EtCO2 DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <HR DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <ICP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <ICP2 DefaultSource="none" />
+         <LAP DefaultSource="none" />
+         <NBP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <P1 DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <P2 DefaultSource="none" />
+         <P3 DefaultSource="none" />
+         <P4 DefaultSource="none" />
+         <PAP DefaultSource="none" />
+         <PLETH DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <RAP DefaultSource="none" />
+         <RESP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <RR DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <SpO2 DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <T1 DefaultSource="none" />
+         <T2 DefaultSource="none" />
+         <T3 DefaultSource="none" />
+         <T4 DefaultSource="none" />
+         <Tblood DefaultSource="none" />
+         <Tesop DefaultSource="none" />
+         <Tnaso DefaultSource="none" />
+         <Trect DefaultSource="none" />
+         <Tskin DefaultSource="none" />
+         <UAP DefaultSource="none" />
+         <UVP DefaultSource="none" />
+         <Tart DefaultSource="none" />
+         <Tven DefaultSource="none" />
+         <ICT DefaultSource="none" />
+         <AP DefaultSource="none" />
+         <BT DefaultSource="none" />
+         <CCI DefaultSource="none" />
+         <CCO DefaultSource="none" />
+         <CFI DefaultSource="none" />
+         <DO2 DefaultSource="none" />
+         <DO2I DefaultSource="none" />
+         <ELWI DefaultSource="none" />
+         <EVLW DefaultSource="none" />
+         <GEDI DefaultSource="none" />
+         <GEDV DefaultSource="none" />
+         <GEF DefaultSource="none" />
+         <ITBI DefaultSource="none" />
+         <ITBV DefaultSource="none" />
+         <OxSQI DefaultSource="none" />
+         <PR DefaultSource="none" />
+         <PVPI DefaultSource="none" />
+         <SV DefaultSource="none" />
+         <SVI DefaultSource="none" />
+         <SVR DefaultSource="none" />
+         <SVRI DefaultSource="none" />
+         <SVV DefaultSource="none" />
+         <ScvO2 DefaultSource="none" />
+         <SvO2 DefaultSource="none" />
+         <VO2 DefaultSource="none" />
+         <VO2I DefaultSource="none" />
+         <VO2Ie DefaultSource="none" />
+         <VO2e DefaultSource="none" />
+         <cHGB DefaultSource="none" />
+         <iAvgPR DefaultSource="none" />
+         <iBT DefaultSource="none" />
+         <iCI DefaultSource="none" />
+         <iCO DefaultSource="none" />
+         <iCVP DefaultSource="None Available" />
+         <iHGB DefaultSource="none" />
+         <iMAP DefaultSource="none" />
+         <iSV DefaultSource="none" />
+         <iSVI DefaultSource="none" />
+         <iSVR DefaultSource="none" />
+         <iSVRI DefaultSource="none" />
+         <iSpO2 DefaultSource="none" />
+         <StO2 DefaultSource="none" />
+         <rSO2 DefaultSource="INVOS" CollectFrom="INVOS" />
+         <Analytes DefaultSource="none" />
+         <TInfinity DefaultSource="none" />
+         <Ao DefaultSource="none" />
+         <BAP DefaultSource="none" />
+         <CO2 DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <FAP DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <IC1 DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <IC2 DefaultSource="none" />
+         <P DefaultSource="none" />
+         <Tcereb DefaultSource="none" />
+         <Temp DefaultSource="none" />
+         <Ttymp DefaultSource="none" />
+         <Tvesic DefaultSource="IntelliVue" CollectFrom="IntelliVue" />
+         <PbtO2 DefaultSource="none" />
+         <TCD DefaultSource="none" />
+         <GCS DefaultSource="ManualEntry" CollectFrom="ManualEntry" />
+         <Hct DefaultSource="none" />
+         <Pupillary DefaultSource="none" />
+         <CI DefaultSource="none" />
+         <CO DefaultSource="none" />
+         <CPI DefaultSource="none" />
+         <CPO DefaultSource="none" />
+         <PCCI DefaultSource="none" />
+         <PCCO DefaultSource="none" />
+         <PDR DefaultSource="none" />
+         <PPV DefaultSource="none" />
+         <R15 DefaultSource="none" />
+         <TB DefaultSource="none" />
+         <dPmx DefaultSource="none" />
+         <GP1 DefaultSource="none" />
+         <GP2 DefaultSource="none" />
+         <GP3 DefaultSource="none" />
+         <ICP1 DefaultSource="none" />
+         <pO2 DefaultSource="none" />
+         <FEM DefaultSource="none" />
+         <SP DefaultSource="none" />
+         <RLS85 DefaultSource="ManualEntry" CollectFrom="ManualEntry" />
+      </Measurements>
+      <Initialized/>
+      <PreviousAvailableDevices value="INVOS,IntelliVue,MRIAmp,ManualEntry" />
+      <LastScreen step="TEST" screen="Hemo + Neuro" />
+      <Step step_name="Setup" >
+         <LastScreen screen_name="Status" />
+      </Step>
+      <Step step_name="TEST" >
+         <LastScreen screen_name="Hemo + Neuro" />
+         <Screen screen_name="Hemo + Neuro" >
+            <DisplayArea displayAreaName="DisplayArea1" CursorTime="0" Duration="1800 secs" />
+            <DisplayArea displayAreaName="DisplayArea2" CursorTime="0" Duration="25 mm/sec" />
+         </Screen>
+         <Screen screen_name="EEG" >
+            <DisplayArea displayAreaName="DisplayArea1" CursorTime="0" EEGSensitivity="5" Duration="30 mm/sec" />
+         </Screen>
+      </Step>
+      <MeasurementSettings>
+         <Modality modality="ICP" >
+            <Type type="Numeric" >
+               <Mean>
+                  <AlarmSettings High="20" EventEnabled="yes" Enabled="no" Low="Off" Latched="no" />
+               </Mean>
+            </Type>
+         </Modality>
+         <Modality modality="FAP" >
+            <Type type="Numeric" >
+               <Syst>
+                  <AlarmSettings High="Off" EventEnabled="yes" Enabled="no" Low="175" Latched="no" />
+               </Syst>
+            </Type>
+         </Modality>
+         <Modality modality="EEG" >
+            <Type type="SampleSeries" >
+               <ImpedanceSignal value="On" />
+               <HighImpedanceThreshold value="20000.0" />
+               <LowImpedanceThreshold value="250.0" />
+               <ImpedanceImbalance value="2000.0" />
+               <Overlap value="On" />
+               <HPF value="0.5" />
+               <LPF value="30" />
+               <Notch value="None" />
+               <ImpNotch1 value="None" />
+               <ImpNotch2 value="None" />
+               <ECoGHPF value="0.5" />
+               <ECoGLPF value="0" />
+               <ECoGNotch value="0" />
+               <ECoGImpNotch1 value="0" />
+               <ECoGImpNotch2 value="0" />
+               <SlowPotentialHPF value="0.01" />
+               <SlowPotentialLPF value="0.5" />
+               <SlowPotentialNotch value="0" />
+               <SlowPotentialImpNotch1 value="0" />
+               <SlowPotentialImpNotch2 value="0" />
+            </Type>
+            <Type type="SEF" >
+               <EdgePercent value="95" />
+               <NoiseThreshold value="0.8" />
+            </Type>
+         </Modality>
+      </MeasurementSettings>
+      <EEGAmpPatientSetup configuration="Cup_Paste" />
+   </NIVAEEG>

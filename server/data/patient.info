@@ -1,0 +1,71 @@
+<PatientInfo>
+    <FileVersion>
+        4.0
+    </FileVersion>
+    <Checksum1>
+        1602850239048959
+    </Checksum1>
+    <SoftwareVersion>
+        A.16.116
+    </SoftwareVersion>
+    <SystemName>
+        CNS22222
+    </SystemName>
+    <MACAddr>
+        00:0d:05:07:c5:b4
+    </MACAddr>
+    <PatientFirstName>
+        C001
+    </PatientFirstName>
+    <PatientLastName>
+        
+    </PatientLastName>
+    <MedicalRecordNumber>
+        Dx
+    </MedicalRecordNumber>
+    <PhysicianName>
+        ALI E
+    </PhysicianName>
+    <Gender>
+        Female
+    </Gender>
+    <Birthdate>
+        
+    </Birthdate>
+   <PatientInfoFields>
+      <PatientFirstName type="alpha" label="First Name" />
+      <PatientLastName type="alpha" label="Last Name" />
+      <MedicalRecordNumber type="alpha" label="Medical Record #" />
+      <PhysicianName type="alpha" label="Physician Name" />
+      <Gender options="Male,Female,Unspecified" type="selection" label="Gender" />
+      <Birthdate type="date" label="Date of Birth" />
+      <PatientIdentifier type="alpha" label="PatientFullName" />
+   </PatientInfoFields>
+    <AdmissionTime>
+        1602830584701329
+    </AdmissionTime>
+    <TimeStamp>
+        1602830584701329
+    </TimeStamp>
+    <AdmissionSystemOffset>
+        7200
+    </AdmissionSystemOffset>
+    <SystemOffset>
+        7200
+    </SystemOffset>
+    <Timezone>
+        Europe/Stockholm
+    </Timezone>
+    <RecordingEndTime>
+        1602850230270969
+    </RecordingEndTime>
+    <DischargeTime>
+        1602850230270969
+    </DischargeTime>
+    <Protocol>
+        NIVA EEG
+    </Protocol>
+    <Checksum2>
+        -1602850239048959
+    </Checksum2>
+</PatientInfo>

@@ -30,10 +30,16 @@ const App: React.FC = () => {
             try {
                 // Fetch patient data using the defined function
                 const patientData = await fetchPatientData(patientId, dataCategory);
-                setData({
-                    time_vector: patientData.data.time_vector.flat(), // data structure
+                  
+                // Check if data contains expected properties
+                if (patientData.data && patientData.data.time_vector && patientData.data.measurement_data) {
+                  setData({
+                    time_vector: patientData.data.time_vector.flat(),
                     measurement_data: patientData.data.measurement_data.flat(),
-                });
+                  });
+                } else {
+                   console.error("Received data structure is not as expected:", patientData.data);
+        }
             } catch (error) {
                 console.error("Failed to fetch patient data:", error);
             }

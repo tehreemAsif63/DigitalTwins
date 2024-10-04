@@ -1,0 +1,11 @@
+   <UserMeasurements>
+      <Modalities>
+         <Modality value="RLS85" >
+            <Description>Rls85</Description>
+            <Category value="Neuro" />
+            <Units value="none" />
+            <DefaultColor value="#ffffff" />
+            <VerticalScales default="1,8" >1,8</VerticalScales>
+         </Modality>
+      </Modalities>
+   </UserMeasurements>

@@ -1,0 +1,14 @@
+<TypeSettings type="EEG,Composite,SampleSeries,CompositeAggregate,MRIAmp">
+	<SampleConversion>
+		-8388608,8388608,-37878,37878
+	</SampleConversion>
+	<Units>uV</Units>
+	<CompositeElements>
+		<CompositeElement type="EEG,C3,SampleSeries,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,C4,SampleSeries,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,F3,SampleSeries,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,F4,SampleSeries,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,P3,SampleSeries,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,P4,SampleSeries,IntegerAggregate,MRIAmp"/>
+	</CompositeElements>
+</TypeSettings>

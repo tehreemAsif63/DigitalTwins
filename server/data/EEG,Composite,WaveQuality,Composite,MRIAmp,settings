@@ -1,0 +1,13 @@
+<TypeSettings type="EEG,Composite,WaveQuality,CompositeAggregate,MRIAmp">
+	<Units>none</Units>
+	<CompositeElements>
+		<CompositeElement type="EEG,C3,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,C4,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,Ref,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,F3,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,F4,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,Gnd,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,P3,WaveQuality,IntegerAggregate,MRIAmp"/>
+		<CompositeElement type="EEG,P4,WaveQuality,IntegerAggregate,MRIAmp"/>
+	</CompositeElements>
+</TypeSettings>

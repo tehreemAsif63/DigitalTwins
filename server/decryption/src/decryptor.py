@@ -1,5 +1,5 @@
 # Import dependencies, libraries and classes
-import binary_extraction
+import server.decryption.src.binary_extraction as binary_extraction
 import folder_extraction
 import json_creation
 import copy_latest
