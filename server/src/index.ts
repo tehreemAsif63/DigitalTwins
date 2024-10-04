@@ -21,8 +21,8 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 // Apply routes
-app.use('/api', apiRoutes);
-app.use('/api', patientRoutes);
+app.use('/api/v1', apiRoutes);
+app.use('/api/v1/patients', patientRoutes);
 
 // Apply error handler
 app.use(notFoundHandler);

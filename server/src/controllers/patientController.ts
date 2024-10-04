@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
-import { decodedData } from "../services/simulateDataService";
+import { getDecryptedData } from "../services/utils";
+import { PatientData } from "../types/types";
 
 // Controller for sending all categories of patient based on the patient id
 export const sendPatientData = async (req: Request, res: Response) => {
@@ -15,7 +16,7 @@ export const sendPatientData = async (req: Request, res: Response) => {
 
   try {
     // Fetch patient data (simulated)
-    const patientData = await decodedData();
+    const patientData : { [key: string]: PatientData } = getDecryptedData();
 
     return res.status(200).json({
       success: true,
@@ -45,7 +46,7 @@ export const sendPatientCategoryData = async (req: Request, res: Response) => {
 
   try {
     // Fetch patient data (simulated)
-    const patientData = await decodedData();
+    const patientData : { [key: string]: PatientData } = getDecryptedData();
 
     // Check if the requested category exists in patientData
     if (!patientData.hasOwnProperty(category)) {
