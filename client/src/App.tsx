@@ -46,8 +46,8 @@ const App: React.FC = () => {
         fetchInitialData(); // Fetch the welcome message
         fetchData();  // Fetch patient data
 
-        // Set up interval to fetch data every 2 seconds
-        const intervalId = setInterval(fetchData, 2000);
+        // Set up interval to fetch data every 10 seconds
+        const intervalId = setInterval(fetchData, 10000);
 
         // Cleanup function to clear the interval
         return () => clearInterval(intervalId);
@@ -60,7 +60,6 @@ const App: React.FC = () => {
     return (// two rowComponents for now showcasing two categories' measurements
         <div className="grid grid-rows-2 gap-4 h-screen items-start bg-black">
             <h1 style={{ color: "white" }}>{welcomeMessage}</h1> {/* Display the welcome message */}
-
             <RowComponent title="HR" unit="bpm" color="lightgreen" data={data} optionPart={<FaHeart color="red" />} numberColor="lightgreen"/>
             <RowComponent title="ABP" unit="mmHg" color="white" data={data} optionPart="120/80" numberColor="white"/>
         </div>

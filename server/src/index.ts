@@ -1,4 +1,5 @@
 import https from 'https';
+import http from 'http';
 import fs from 'fs';
 import express from 'express';
 import morgan from 'morgan';
@@ -33,6 +34,11 @@ const sslOptions = {
 };
 
 // Start HTTPS server
-https.createServer(sslOptions, app).listen(port, () => {
-    console.log(`HTTPS Server running on port ${port}`);
+// https.createServer(sslOptions, app).listen(port, () => {
+//     console.log(`HTTPS Server running on port ${port}`);
+// });
+
+// Start HTTP server instead of HTTPS
+http.createServer(app).listen(port, () => {
+    console.log(`HTTP Server running on port ${port}`);
 });
