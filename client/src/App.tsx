@@ -12,8 +12,8 @@ const App: React.FC = () => {
     //The initial state is set to null, and the state is set up to store patient data, which can be of any specific data type or null.
     const [data, setData] = useState<DataType | null>(null);
     const [welcomeMessage, setWelcomeMessage] = useState<string | null>(null);
-    const patientId = "123"; // Placeholder-Replace with the actual patient ID
-    const dataCategory = "abp"; // Placeholder-Replace with the actual data category
+    const patientId = "1"; // Placeholder-Replace with the actual patient ID
+    const dataCategory = "measurement_data"; // Placeholder-Replace with the actual data category
 
     useEffect(() => {
         // Fetch the welcome message
@@ -32,11 +32,11 @@ const App: React.FC = () => {
             try {
                 // Fetch patient data using the defined function
                 const patientData = await fetchPatientData(patientId, dataCategory);
-                console.log("Fetched Patient Data:", patientData); // Log the fetched data
+                console.log("Fetched Patient Data:", patientData.data); // Log the fetched data
 
                 setData({
-                    time_vector: patientData.time_vector, // data structure
-                    measurement_data: patientData.measurement_data,
+                    time_vector: patientData.data.time_vector.flat(), // data structure
+                    measurement_data: patientData.data.measurement_data.flat(),
                 });
             } catch (error) {
                 console.error("Failed to fetch patient data:", error);

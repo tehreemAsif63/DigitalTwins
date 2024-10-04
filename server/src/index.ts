@@ -5,12 +5,17 @@ import morgan from 'morgan';
 import apiRoutes from './routes/api';
 import patientRoutes from './routes/patient';
 import { notFoundHandler } from './middlewares/errorHandler';
+import cors from 'cors'
 
 // Initialize express application
 const app = express();
 const port = process.env.PORT || 5000;
 
 // Apply middlewares
+app.use(cors({
+    origin: 'http://localhost:3000', 
+    credentials: false, 
+}));
 app.use(morgan('dev'));
 app.use(express.json());
 

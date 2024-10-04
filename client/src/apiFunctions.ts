@@ -6,11 +6,14 @@ const fetchPatientData = async (patientId: string, dataCategory: string): Promis
     //testing if data is tried to be fetched every 2 seconds- can remove later
     const startTime = Date.now();
     setInterval(() => {
-        console.log(`Checking data is being fetched- ${Math.floor((Date.now() - startTime) / 1000)} seconds`);
+    //     console.log(`Checking data is being fetched- ${Math.floor((Date.now() - startTime) / 1000)} seconds`);
     }, 1000);
     
     try {
-        const response = await api.get(`/patients/${patientId}/${dataCategory}`);
+        // Get the entire dataset including all categories
+        const response = await api.get(`/patients/${patientId}/data`);
+        // Get a specific category of the dataset
+        // const response = await api.get(`/patients/${patientId}/${dataCategory}`);
         console.log("Data received from the backend:", response.data); // Log received data
         return response.data; // Return the data received from the server
 

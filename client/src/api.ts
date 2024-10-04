@@ -3,6 +3,6 @@ import axios from "axios";
 
 //creates instance of axios with a predefined base URL
 export default axios.create({
-  baseURL: process.env.REACT_APP_API_ENDPOINT || "http://localhost:3000/api/v1",
+  baseURL: process.env.REACT_APP_API_ENDPOINT || "https://localhost:5000/api/v1",
   headers: {'Content-Type': 'application/json',},
 });
