@@ -17,14 +17,16 @@ const App: React.FC = () => {
 
     // An array of row objects, each representing a row of data type to be displayed.
     const rowData = [
-        // Heart Rate Row
         {title: "HR", unit: "bpm", color: "lightgreen", data: visibleData.HR, optionPart: <FaHeart color="red" />, numberColor: "lightgreen"},
-        // ABP Row 
-        { title: "ABP", unit: "mmHg", color: "red", data: visibleData.ABP, optionPart: "120/80", numberColor: "white" },
-        // Add more rows later
-        { title: "test1", unit: "testunit", color: "lightblue", data: visibleData.ABP, numberColor: "lightblue" },
-        { title: "test2", unit: "testunit", color: "green", data: visibleData.ABP, numberColor: "green" },
-        { title: "test3", unit: "testunit", color: "green", data: visibleData.ABP, numberColor: "white" },
+        { title: "RR", unit: "%", color: "green", data: visibleData.RR, numberColor: "green" },
+        { title: "ABP", unit: "mmHg", color: "red", data: visibleData.ABP_Dias, optionPart: "120/80", numberColor: "red" },
+        { title: "ABP Mean", unit: "BPM", color: "darkyellow", data: visibleData.ABP_Mean, numberColor: "darkyellow" },
+        { title: "ABP Syst", unit: "Celsius", color: "green", data: visibleData.ABP_Syst, numberColor: "green" },
+        { title: "SpO2", unit: "mmHg", color: "lightblue", data: visibleData.ABP_Syst, numberColor: "lightblue" },
+        { title: "Tvesic", unit: "bpm", color: "purple", data: visibleData.ABP_Syst, numberColor: "green" },
+        { title: "rSO2 Left", unit: "", color: "yellow", data: visibleData.ABP_Syst, numberColor: "yellow" },
+        { title: "rSO2 Right", unit: "", color: "yellow", data: visibleData.ABP_Syst, numberColor: "yellow" },
+        // Add more rows if needed
     ]
 
     return (
