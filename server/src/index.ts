@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 
 // Apply middlewares
 app.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'http://localhost:5173', 
 }));
 app.use(morgan('dev'));
 app.use(express.json());
@@ -23,12 +23,6 @@ app.use('/api/v1/patients', patientRoutes);
 
 // Apply error handler
 app.use(notFoundHandler);
-
-// Read SSL certificate and key files
-const sslOptions = {
-    key: fs.readFileSync('./certs/server.key'),
-    cert: fs.readFileSync('./certs/server.cert'),
-};
 
 // Start HTTP server instead of HTTPS
 app.listen(port, () => {

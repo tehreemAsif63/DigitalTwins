@@ -52,13 +52,10 @@ const RowComponent: React.FC<RowComponentProps> = ({ title, unit, color, numberC
                         autosize: true, // Auto size the graph
                         margin: {
                             t: 50, // Top margin
-                            r: 0, // Right margin
+                            r: 20, // Right margin
                             l: 10, // Left margin
                             b: 50 // Bottom margin
                         },
-                        padding: {
-                            r: 20 // Padding on the right
-                        }
                     }}
                     useResizeHandler={true} // Handle resizing
                     style={{ width: "100%", height: "200px" }} // Style for the graph
