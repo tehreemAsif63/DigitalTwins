@@ -1,16 +1,19 @@
-import https from 'https';
 import fs from 'fs';
 import express from 'express';
 import morgan from 'morgan';
 import apiRoutes from './routes/api';
 import patientRoutes from './routes/patient';
 import { notFoundHandler } from './middlewares/errorHandler';
+import cors from 'cors';
 
 // Initialize express application
 const app = express();
 const port = process.env.PORT || 5000;
 
 // Apply middlewares
+app.use(cors({
+    origin: 'http://localhost:3000', 
+}));
 app.use(morgan('dev'));
 app.use(express.json());
 
@@ -27,7 +30,11 @@ const sslOptions = {
     cert: fs.readFileSync('./certs/server.cert'),
 };
 
-// Start HTTPS server
-https.createServer(sslOptions, app).listen(port, () => {
-    console.log(`HTTPS Server running on port ${port}`);
+// Start HTTP server instead of HTTPS
+app.listen(port, () => {
+    console.log(`HTTP Server running on port ${port}`);
 });
+// Start HTTPS server
+//https.createServer(sslOptions, app).listen(port, () => {
+  //  console.log(`HTTPS Server running on port ${port}`);
+//});
