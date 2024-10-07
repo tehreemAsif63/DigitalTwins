@@ -1,4 +1,3 @@
-import https from 'https';
 import fs from 'fs';
 import express from 'express';
 import morgan from 'morgan';
@@ -31,7 +30,11 @@ const sslOptions = {
     cert: fs.readFileSync('./certs/server.cert'),
 };
 
-// Start HTTPS server
-https.createServer(sslOptions, app).listen(port, () => {
-    console.log(`HTTPS Server running on port ${port}`);
+// Start HTTP server instead of HTTPS
+app.listen(port, () => {
+    console.log(`HTTP Server running on port ${port}`);
 });
+// Start HTTPS server
+//https.createServer(sslOptions, app).listen(port, () => {
+  //  console.log(`HTTPS Server running on port ${port}`);
+//});
