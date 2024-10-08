@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { PatientData } from '../types/types';
+import { PatientData } from '../types/Patient';
 
 /**
  * Reads a file from the decrypted_data directory and returns its contents as a JSON object.

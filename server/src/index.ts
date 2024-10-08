@@ -1,10 +1,28 @@
-import fs from 'fs';
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 import express from 'express';
 import morgan from 'morgan';
 import apiRoutes from './routes/api';
 import patientRoutes from './routes/patient';
 import { notFoundHandler } from './middlewares/errorHandler';
 import cors from 'cors';
+
+// Load environment variables
+dotenv.config();
+
+// MongoDB connection setup
+const connectDB = async () => {
+  try {
+      const conn = await mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/DigitalTwinsDB");
+      console.log(`MongoDB Connected: ${conn.connection.host}`);
+  } catch (error) {
+      console.error(`Error: ${error}`);
+      process.exit(1);
+  }
+};
+
+// Connect to MongoDB
+connectDB();
 
 // Initialize express application
 const app = express();
