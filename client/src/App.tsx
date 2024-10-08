@@ -17,15 +17,15 @@ const App: React.FC = () => {
 
     // An array of row objects, each representing a row of data type to be displayed.
     const rowData = [
-        {title: "HR", unit: "bpm", color: "lightgreen", data: visibleData.HR, optionPart: <FaHeart color="red" />, numberColor: "lightgreen"},
-        { title: "RR", unit: "%", color: "green", data: visibleData.RR, numberColor: "green" },
-        { title: "ABP", unit: "mmHg", color: "red", data: visibleData.ABP_Dias, optionPart: "120/80", numberColor: "red" },
-        { title: "ABP Mean", unit: "BPM", color: "darkyellow", data: visibleData.ABP_Mean, numberColor: "darkyellow" },
-        { title: "ABP Syst", unit: "Celsius", color: "green", data: visibleData.ABP_Syst, numberColor: "green" },
-        { title: "SpO2", unit: "mmHg", color: "lightblue", data: visibleData.ABP_Syst, numberColor: "lightblue" },
-        { title: "Tvesic", unit: "bpm", color: "purple", data: visibleData.ABP_Syst, numberColor: "green" },
-        { title: "rSO2 Left", unit: "", color: "yellow", data: visibleData.ABP_Syst, numberColor: "yellow" },
-        { title: "rSO2 Right", unit: "", color: "yellow", data: visibleData.ABP_Syst, numberColor: "yellow" },
+        {title: "HR", unit: "bpm", color: "lightgreen", data: visibleData["HR,na"], optionPart: <FaHeart color="red" />, numberColor: "lightgreen"},
+        { title: "RR", unit: "%", color: "green", data: visibleData["RR,na"], numberColor: "green" },
+        { title: "ABP", unit: "mmHg", color: "red", data: visibleData["ABP,Dias"], optionPart: "120/80", numberColor: "red" },
+        { title: "ABP Mean", unit: "BPM", color: "darkyellow", data: visibleData["ABP,Mean"], numberColor: "darkyellow" },
+        { title: "ABP Syst", unit: "Celsius", color: "green", data: visibleData["ABP,Syst"], numberColor: "green" },
+        { title: "SpO2", unit: "mmHg", color: "lightblue", data: visibleData["SpO2,na"], numberColor: "lightblue" },
+        { title: "Tvesic", unit: "bpm", color: "purple", data: visibleData["Tvesic,na"], numberColor: "green" },
+        { title: "rSO2 Left", unit: "", color: "yellow", data: visibleData["rSO2,Left"], numberColor: "yellow" },
+        { title: "rSO2 Right", unit: "", color: "yellow", data: visibleData["rSO2,Right"], numberColor: "yellow" },
         // Add more rows if needed
     ]
 

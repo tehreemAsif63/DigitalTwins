@@ -6,14 +6,14 @@ export interface DataType {
 
 // Defines the general structure for the data contains different patient measurement data
 export interface AllDataType {
-    ABP_Dias: DataType,
-    ABP_Mean: DataType,
-    ABP_Syst: DataType,
-    HR: DataType,
-    RR: DataType,
-    SpO2: DataType,
-    Tvesic: DataType,
-    rSO2_Left: DataType,
-    rSO2_Right: DataType,
+    ["ABP,Dias"]: DataType,
+    ["ABP,Mean"]: DataType,
+    ["ABP,Syst"]: DataType,
+    ["HR,na"]: DataType,
+    ["RR,na"]: DataType,
+    ["SpO2,na"]: DataType,
+    ["Tvesic,na"]: DataType,
+    ["rSO2,Left"]: DataType,
+    ["rSO2,Right"]: DataType,
     // Add more data types if needed 
 }

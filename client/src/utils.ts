@@ -1,12 +1,12 @@
 import api from './api.ts'; // import axios instance from api.tsx
-import { DataType } from './types.ts';
+import { AllDataType } from './types.ts';
 
 // Reusable Function to fetch patient data from the back-end
-const fetchPatientData = async (patientId: string, dataCategory: string): Promise<DataType> => {
+const fetchPatientData = async (patientId: string, dataCategory: string): Promise<AllDataType> => {
 
     try {
         const response = await api.get(`/patients/${patientId}/${dataCategory}`);
-        return response.data; // Return the data received from the server
+        return response.data.data; // Return the data received from the server
         console.log("Data received from the backend:", response.data); // Log received data
 
     } catch (error) {
