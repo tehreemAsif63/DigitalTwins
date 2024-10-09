@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import { AllDataType } from "../types";
+import { AllDataType } from "../types/types.ts";
 import { fetchPatientData } from "../utils.ts";
 
 // Custom hook to manage the patient data
