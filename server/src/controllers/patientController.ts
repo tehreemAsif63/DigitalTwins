@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { getDecryptedData } from "../services/utils";
-import { PatientData } from "../types/types";
+import { PatientData } from "../types/Patient";
 
 // Controller for sending all categories of patient based on the patient id
 export const sendPatientData = async (req: Request, res: Response) => {
