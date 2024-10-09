@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import HomeView from "./views/HomeView.tsx";
+import Monitor from './components/MonitorComponent.tsx';
 
 
 const App = () => { 
@@ -9,6 +10,7 @@ const App = () => {
       <Routes>
 
         <Route path="/" element={<HomeView />} /> 
+        <Route path="/monitor" element={<Monitor />} />
 
       </Routes>
     );

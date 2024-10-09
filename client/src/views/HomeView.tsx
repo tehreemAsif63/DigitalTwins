@@ -1,8 +1,8 @@
-import MonitorComponent from "../components/MonitorComponent.tsx"
+import LoginComponent from "../components/LoginComponent.tsx"
 
 const HomeView = () => (
   <div className="home-container">
-    <MonitorComponent />
+    <LoginComponent />
   </div>
 );
 

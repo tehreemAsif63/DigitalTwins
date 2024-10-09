@@ -1,6 +1,6 @@
 /*Style rules for the HTML, body, and root elements */
 html, body, #root {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   height: 100%;
   margin: 0;
   padding: 0;
